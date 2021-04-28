@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =4
+let g:netrw_dirhist_4='/home/tyler/.config/nvim'
+let g:netrw_dirhist_3='/home/tyler/Documents/Udemy/BlockChains/Python/03-Project/01-Backend/blockchain'
+let g:netrw_dirhist_2='/home/tyler/Documents/Udemy/BlockChains/Python/03-Project/01-Backend'
+let g:netrw_dirhist_1='/home/tyler'
+let g:netrw_dirhist_0='/home/tyler/.config'
+let g:netrw_dirhist_9='/home/tyler/.config/joplin'
+let g:netrw_dirhist_8='/home/tyler/.config/joplin/tmp'
+let g:netrw_dirhist_7='/home/tyler/Documents/bash_repository'
+let g:netrw_dirhist_6='/home/tyler/Documents'
+let g:netrw_dirhist_5='/home/tyler/Documents/Possibly_Not_Useful'
