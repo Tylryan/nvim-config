@@ -3,28 +3,33 @@
 call plug#begin('~/.config/nvim/autoload/plugged/')
 "Nerd Tree
 Plug 'preservim/nerdtree'
+" Themes
 Plug 'morhetz/gruvbox'
 Plug 'mhartington/oceanic-next'
+Plug 'gosukiwi/vim-atom-dark'
 " Intelliscence of vim
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 "Comments out entire lines at a time 
 Plug 'tpope/vim-commentary'
 "Closes HTML tags
 Plug 'alvan/vim-closetag'
+"Fuzzy Finder
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 " Which file am i fucking looking at
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
+" Multi-Cursors
+Plug 'mg979/vim-visual-multi', {'branch': 'master'}
 call plug#end()
-
 " Source Files
 source $HOME/.config/nvim/maps/personal.vim
 source $HOME/.config/nvim/maps/autoClose.vim
 
 source $HOME/.config/nvim/themes/airline.vim 
-
+" Themes
 " source $HOME/.config/nvim/themes/oceanNext.vim
 source $HOME/.config/nvim/themes/gruvbox.vim
+" source $HOME/.config/nvim/themes/vimAtomDark.vim
 
 " Personal Styling
 syntax on
@@ -36,10 +41,8 @@ set showmode! "Don't show '--insert--' "
 set tabstop=4
 set shiftwidth=4
 set expandtab
+" For tab complete in the buffer
 let g:python3_host_prog='/usr/bin/python3'
 "Nerd Tree setting map to Ctrl n"
-nnoremap <C-n> :NERDTree<CR>
-
-
-
+" nnoremap <C-n> :NERDTree<CR>
 
