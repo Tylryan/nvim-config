@@ -1,7 +1,6 @@
 "first call for begin will make the directory plugged if it isn't there. 
 "It will then use that as the location for the plugins.
 call plug#begin('~/.config/nvim/autoload/plugged/')
-
 "                   Functional
 " Intelliscence of vim
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
@@ -45,7 +44,7 @@ set showmode! "Don't show '--insert--' "
 set tabstop=4
 set shiftwidth=4
 set expandtab
-let g:python3_host_prog='/usr/bin/python3'
+" let g:python3_host_prog='/usr/bin/python3'
 "Nerd Tree setting map to Ctrl n"
 " nnoremap <C-n> :NERDTree<CR>
 
