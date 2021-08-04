@@ -28,10 +28,11 @@ call plug#end()
 "                   Source Files
 source $HOME/.config/nvim/maps/personal.vim
 source $HOME/.config/nvim/maps/autoClose.vim
-source $HOME/.config/nvim/themes/airline.vim 
+source $HOME/.config/nvim/maps/coc-maps.vim
+" source $HOME/.config/nvim/themes/airline.vim 
 "                   Themes Settings
 " source $HOME/.config/nvim/themes/oceanNext.vim
-source $HOME/.config/nvim/themes/gruvbox.vim
+"source $HOME/.config/nvim/themes/gruvbox.vim
 " source $HOME/.config/nvim/themes/vimAtomDark.vim
 
 "                   Personal Options
