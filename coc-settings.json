@@ -1,24 +1,10 @@
 {
-  "coc.preferences.formatOnSaveFiletypes": [
-    "css",
-    "javascript",
-    "graphql",
-    "html",
-    "yaml",
-    "json",
-    "python"
-  ],
-  // pairs configuration
-  "pairs.enableCharacters": ["(", "[", "'", "\"", "`", "{"],
-  // python config
-  "python.linting.enabled": true,
-  "python.linting.pylintEnabled": true,
-  "python.linting.lintOnSave": true,
-  "html.enable": true,
-  "html.autoClosingTags": true,
-  "html.format.enable": true,
-  "html.trace.server": true,
-  "javascript.format.enabled": true,
-  "javascript.suggest.names": true,
-  "snippets.ultisnips.directories": ["UltiSnips", "~/.config/nvim/utils/snips"]
+    "python.jediEnable":true,
+    "python.linting.pylintEnabled":true,
+    "python.linting.flake8Enabled":false,
+    "jedi.hover.enable": true,
+    "coc.preferences.formatOnSaveFiletypes": [
+        "python"
+    ]
+
 }
