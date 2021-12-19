@@ -25,10 +25,6 @@ nnoremap <leader>bt :tabnew<bar> :terminal<CR>i
 
 
 "Remaping Terminal to Escape"
-"T is for Terminal
-"nore is for no recursion
-"map is how you map it
-"c-\ is literally ctrl + \
 tnoremap <Esc> <C-\><C-n>
 " Opens a split terminal in the current window in --Insert-- mode.
 " nnoremap <leader>ot :split<CR> :resize -10<CR> :terminal<CR>i
@@ -45,3 +41,7 @@ nnoremap <leader>wc :close<CR>
 nnoremap <leader>ww <C-w><C-p>
  
 nnoremap <leader>: :!<Space>
+
+" TOGGLE TERMINAL
+nnoremap <leader>ot :ToggleTerm dir=. direction=float<CR>
+
