@@ -20,7 +20,8 @@ autocmd  FileType which_key set laststatus=0 noshowmode noruler
 
 " Actual bindings
 let g:which_key_map['b'] = {
-      \ 'name' : '+Tabs' ,
+      \ 'name' : '+Tabs & Buffers' ,
+      \ 'c' : 'Close Buffer'                ,
       \ 'h' : 'First Tab'                ,
       \ 'j' : 'Prev Tab'                 ,
       \ 'k' : 'Next Tab'                 ,
@@ -38,18 +39,28 @@ let g:which_key_map.c = {
       \ 'a' : 'Code Action',
       \ 'f' : 'Quick Fix',
       \ 'i' : 'Implementation',
-      \ 'r' : 'Rename',
+      \ 'j' : 'Jump To Source',
+      \ 'r' : 'Rename Var',
+      \ 'R' : 'References',
+      \ 't' : 'Type Definition',
       \ }
 
-let g:which_key_map.c.h = {
-      \ 'name' : '+help',
+let g:which_key_map.c.c = {
+      \ 'name' : '+Compile',
+      \ 'a' : 'yasm',
+      \ 'c' : 'Cmake && make',
+      \ 'j' : 'npm run',
+      \ 'p' : 'pipe run',
+      \ 'r' : 'cargo run',
+      \ 's' : 'sbt run',
+      \ }
+
+let g:which_key_map.C = {
+      \ 'name' : '+Coc',
       \ 'c' : 'Coc Commands'    ,
-      \ 'd' : 'Show Documentation',
       \ 'e' : 'Coc Extentions',
-      \ 'j' : 'Jump to Definition',
       \ 'm' : 'Coc Marketplace',
       \ 'p' : 'Coc Diagnostics',
-      \ 'r' : 'Coc References',
       \ }
 
 

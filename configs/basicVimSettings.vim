@@ -18,6 +18,6 @@ autocmd VimEnter * nested
 \ | if get(g:, 'startify_session_autoload') && filereadable('Session.vim')
 \ | source Session.vim
 \ | else
-\ | exe ":FZF"
+\ | exe ":Files"
 \ | endif
 \ | endif

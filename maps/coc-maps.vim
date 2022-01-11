@@ -125,28 +125,25 @@ command! -nargs=0 OR   :call     CocAction('runCommand', 'editor.action.organize
 " provide custom statusline: lightline.vim, vim-airline.
 set statusline^=%{coc#status()}%{get(b:,'coc_current_function','')}
 
-" Mappings for CoCList
-" Show all diagnostics.
-nnoremap <leader>chp :<C-u>CocList diagnostics<cr>
-
-nmap <leader>chm :CocList marketplace <CR>
-" Actually pretty usefull commands
 " Remap keys for applying codeAction to the current buffer.
 nmap <leader>ca  <Plug>(coc-codeaction)
 " Apply AutoFix to problem on the current line.
 nmap cf  <Plug>(coc-fix-current)
-
-" Show commands.
-nnoremap <leader>chc  :<C-u>CocList commands<cr>
-" GoTo code navigation.
-nmap <leader>chj <Plug>(coc-definition)
-" Manage extensions.
-nnoremap <leader>che  :<C-u>CocList extensions<cr>
-nmap <leader>chy <Plug>(coc-type-definition)
 nmap <leader>ci <Plug>(coc-implementation)
-nmap <leader>chr <Plug>(coc-references)
+" GoTo code navigation.
+nmap <leader>cj <Plug>(coc-definition)
 " Symbol renaming.
 nmap <leader>cr <Plug>(coc-rename)
+nmap <leader>cR <Plug>(coc-references)
+nmap <leader>ct <Plug>(coc-type-definition)
+
+" Show commands.
+nnoremap <leader>Cc  :<C-u>CocList commands<cr>
+" Manage extensions.
+nnoremap <leader>Ce  :<C-u>CocList extensions<cr>
+" Show all diagnostics.
+nmap <leader>Cm :CocList marketplace <CR>
+nnoremap <leader>Cp :<C-u>CocList diagnostics<cr>
 
 " Show Documentation over hovered area
 nnoremap <leader>chd :call <SID>show_documentation()<CR>
