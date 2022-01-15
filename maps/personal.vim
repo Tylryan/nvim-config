@@ -55,3 +55,10 @@ nnoremap <leader>ccp :! pipe run<CR>
 nnoremap <leader>ccr :! cargo run<CR>
 nnoremap <leader>ccs :! sbt run<CR>
 
+" Browsing the web like a boss
+nnoremap <leader>se :! xfce4-terminal -e "$HOME/Bin/elinks-search<Space>"<Left>
+nnoremap <leader>ob :! xfce4-terminal -e "$HOME/Bin/elinks-search<Space>"<Left>
+" Open Markdown
+" Could use this, but you can't specify defaults
+nnoremap <leader>om :! xdg-open % &<CR>
+

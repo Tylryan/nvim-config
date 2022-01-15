@@ -1,7 +1,7 @@
 ﻿"                   Basic Settings
 source $HOME/.config/nvim/configs/basicVimSettings.vim
 "                   Plugins
-source $HOME/.config/nvim/plugins/plugins.vim
+source $HOME/.config/nvim/plugins.vim
 "                   Key Bindings
 source $HOME/.config/nvim/maps/personal.vim
 source $HOME/.config/nvim/maps/scripts.vim
