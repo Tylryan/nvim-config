@@ -129,7 +129,7 @@ set statusline^=%{coc#status()}%{get(b:,'coc_current_function','')}
 nmap <leader>ca  <Plug>(coc-codeaction)
 " Apply AutoFix to problem on the current line.
 nmap cf  <Plug>(coc-fix-current)
-nmap <leader>ci <Plug>(coc-implementation)
+" nmap <leader>ci <Plug>(coc-implementation)
 " GoTo code navigation.
 nmap <leader>cj <Plug>(coc-definition)
 " Symbol renaming.
@@ -146,4 +146,4 @@ nmap <leader>Cm :CocList marketplace <CR>
 nnoremap <leader>Cp :<C-u>CocList diagnostics<cr>
 
 " Show Documentation over hovered area
-nnoremap <leader>chd :call <SID>show_documentation()<CR>
+nnoremap <leader>cd :call <SID>show_documentation()<CR>

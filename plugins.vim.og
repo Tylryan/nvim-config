@@ -9,10 +9,11 @@ Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'rafi/awesome-vim-colorschemes'
 Plug 'akinsho/toggleterm.nvim'
-Plug 'conweller/findr.vim'
 
-
-Plug 'yuezk/vim-js'                 " javascript
-Plug 'maxmellon/vim-jsx-pretty'     " javascript
-Plug 'HerringtonDarkholme/yats.vim' " typescript
+" Javascript
+Plug 'yuezk/vim-js'
+Plug 'maxmellon/vim-jsx-pretty'
+" Typescript
+Plug 'HerringtonDarkholme/yats.vim'
+" Plug 'neoclide/vim-jsx-improve'
 call plug#end()

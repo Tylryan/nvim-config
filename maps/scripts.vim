@@ -5,7 +5,7 @@ endfunction
 
 func! Vsplit_FZF() 
     exe ":vnew"
-    exe ":FZF"
+    exe ":Findr"
 endfunction
 
 func! Cpp_Run()

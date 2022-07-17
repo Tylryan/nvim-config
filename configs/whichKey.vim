@@ -39,12 +39,12 @@ let g:which_key_map.b = {
 let g:which_key_map.c = {
       \ 'name' : '+Code',
       \ 'a' : 'Code Action'                     ,
+      \ 'd' : 'Type Hint'                       ,
       \ 'f' : 'Quick Fix'                       ,
-      \ 'i' : 'Implementation'                  ,
-      \ 'j' : 'Jump To Source'                  ,
+      \ 'j' : 'Source Code'                     ,
       \ 'r' : 'Rename Var'                      ,
       \ 'R' : 'References'                      ,
-      \ 't' : 'Type Definition'                 ,
+      \ 't' : 'Define Type'                     ,
       \ }
 
 let g:which_key_map.c.c = {
@@ -88,4 +88,5 @@ let g:which_key_map.w = {
       \ 'k' : 'Move Up'                         ,  
       \ 'l' : 'Move Right'                      ,
       \ 'v' : ['Vsplit_FZF()', 'Vsplit Window'] ,
+      \ 'w' : 'Previous Window'                 ,
       \ }

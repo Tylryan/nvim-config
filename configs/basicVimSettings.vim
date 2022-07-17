@@ -13,6 +13,7 @@ set nowrap
 " set statusline=%f
 " Opens terminal without line numbers
 autocmd TermOpen * setlocal nonumber norelativenumber
+
 autocmd VimEnter * nested
 \ if !argc() && (line2byte('$') == -1) && (v:progname =~? '^[-gmnq]\=vim\=x\=\%[\.exe]$')
 \ | if get(g:, 'startify_session_autoload') && filereadable('Session.vim')

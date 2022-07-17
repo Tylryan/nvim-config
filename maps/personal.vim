@@ -9,16 +9,16 @@ nnoremap <leader>bj :tabprevious<CR>
 nnoremap <leader>bh :tabfirst<CR>
 "       Next Tab : Default
 nnoremap <leader>bk :tabnext<CR>
-nnoremap <leader>bb :tabnext<CR>
+nnoremap <silent> <leader>bb :FindrBuffer<CR>
 "       Go Last
 nnoremap <leader>bl :tablast<CR>
 "       New Empty Tab
 " nnoremap <leader>bn :tabnew<CR>
 " FZF
 "       New Tab of your choosing
-nnoremap <leader><leader> :tabnew<CR>:Files<CR>
+nnoremap <silent> <leader><leader> :tabnew<CR>:Findr<CR>
 " Recursively finds files within your current folder
-nnoremap <leader>sf :Files<CR>
+nnoremap <silent> <leader>sf :Files<CR>
 
 " Explorer (like dired for emacs)
 nnoremap <leader>oe :tabnew<bar> :Explore <CR> 
